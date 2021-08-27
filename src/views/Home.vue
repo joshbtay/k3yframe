@@ -53,7 +53,6 @@ export default {
 			'X': '╬',
 			'Y': '╣',
 			'Z': '╨',
-			' ': '_',
 			'1': '⏈',
 			'2': '⏆',
 			'3': '⏇',
@@ -76,7 +75,7 @@ export default {
 		if(this.english)
 		return "ent3r text t0 transl@t3";
 		else
-		return "3╖╤⏇╡_╤3╬╤_╤⍏_╤╡|╖┅╪@╤3";
+		return "3╖╤⏇╡ ╤3╬╤ ╤⍏ ╤╡|╖┅╪@╤3";
 	}
   },
   methods: {

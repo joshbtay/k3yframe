@@ -9,7 +9,10 @@
 
 <style>
 *{
-  background-color: #222;
+}
+body{
+
+  background-image: url('/kf.gif');
 }
 #app {
   font-family: "Roboto Mono", monospace;
