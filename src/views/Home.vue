@@ -63,6 +63,7 @@ export default {
 			'8': '⏃',
 			'9': '⏄',
 			'0': '⍏',
+			' ': '_ '
 		},
 		inverted: {},
 	}
@@ -93,6 +94,7 @@ export default {
 		}
 		}else{
 		for(var j = 0; j < text.length; j++){
+			if(text.charAt(j) == '_') continue;
 			if(!(text.charAt(j) in this.inverted)){
 				out += text.charAt(j)
 			}
